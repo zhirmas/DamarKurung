@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DamarKurung/static/css/main.6df5b9db.css",
+    "main.css": "/DamarKurung/static/css/main.75c763e0.css",
     "main.js": "/DamarKurung/static/js/main.aa88f966.js",
     "static/js/787.14f3fbcd.chunk.js": "/DamarKurung/static/js/787.14f3fbcd.chunk.js",
     "static/media/song.mp3": "/DamarKurung/static/media/song.51f9073296adc25445c1.mp3",
@@ -23,12 +23,12 @@
     "static/media/iconVideo.png": "/DamarKurung/static/media/iconVideo.50bdfd569e28e7c77805.png",
     "static/media/Play.png": "/DamarKurung/static/media/Play.caca5657f34f5309ff72.png",
     "index.html": "/DamarKurung/index.html",
-    "main.6df5b9db.css.map": "/DamarKurung/static/css/main.6df5b9db.css.map",
+    "main.75c763e0.css.map": "/DamarKurung/static/css/main.75c763e0.css.map",
     "main.aa88f966.js.map": "/DamarKurung/static/js/main.aa88f966.js.map",
     "787.14f3fbcd.chunk.js.map": "/DamarKurung/static/js/787.14f3fbcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df5b9db.css",
+    "static/css/main.75c763e0.css",
     "static/js/main.aa88f966.js"
   ]
 }
