@@ -1,0 +1,59 @@
+.HomeContainer {
+    display: flex;
+    background: transparent;
+}
+
+
+.TittleContainer {
+    display: flex;
+    width: 130vh;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    height: 100vh;
+}
+
+.TittleContainer img {
+    height: 80vh;
+    background: transparent;
+}
+
+.ButtonContainer {
+    width: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+
+}
+
+.damar1 {
+    position: absolute;
+    z-index: -999;
+    width: 60vh;
+    margin-right: 15px;
+}
+
+.damar2 {
+    position: absolute;
+    z-index: -999;
+    width: 80vh;
+    margin-left: 340px;
+}
+
+.ButtonContainer img {
+    height: 50vh;
+
+}
+
+.secondButton {
+    margin-top: 20px;
+}
+
+.secondButton img {
+    height: 30vh ;
+    margin-right: 10px;
+    margin-left: 10px;
+}

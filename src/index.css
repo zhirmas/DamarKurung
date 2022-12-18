@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Future Now', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+@import url('https://fonts.cdnfonts.com/css/future-now');
+
+button:active {
+  scale: 1.1;
+
+}
+
+img:active{
+  scale: 1.1;
+}
+
+
+.Link {
+  text-decoration: none;
+}

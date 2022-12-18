@@ -1,0 +1,98 @@
+.Overlay {
+    position: absolute;
+    width: 250vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background: #FFD166;
+    border: 5px solid black;
+    padding: 5px 15px 5px 15px;
+    overflow-y: scroll;
+}
+
+.KontenContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250vh;
+    text-align: justify;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    background: none;
+}
+
+.KontenContainer img {
+    width: 80vh;
+    border: 5px solid black;
+    margin: auto;
+}
+
+.XContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.XContainer img {
+    width: 15vh;
+    box-shadow: black 2px 2px;
+}
+
+.KontenContainer h1 {
+    background: #4EA8DE;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+    box-shadow: black 3px 3px;
+}
+
+.KontenContainer h2 {
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 10px;
+    border: 5px solid black;
+    box-shadow: black 2px 2px;
+}
+
+.icon{
+    display: flex;
+    margin-top: 25px;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon img {
+    width: 20vh;
+    margin-right: 25px;
+}
+
+.icon p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.PetunjukContainer {
+    display: flex;
+    flex-direction: column;
+    width: 250vh;
+    color: black;
+}
+
+.PetunjukContainer p {
+    font-weight: 600;
+}
+
+.PetunjukContainer h1 {
+    text-align: center;
+    background: #4EA8DE;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+    box-shadow: black 3px 3px;
+}

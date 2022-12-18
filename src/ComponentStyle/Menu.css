@@ -1,0 +1,139 @@
+.MenuContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ContainerList {
+    background: #94D2BD;
+    width: 180vh;
+    border: 5px solid black;
+    margin-top:15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    height: 70vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: black -6px 6px;
+    margin-bottom:25px ;
+    overflow-y: scroll;
+}
+
+.ContainerList button {
+    background: #E89701;
+    color: black;
+    font-weight: 800;
+    border: 5px solid black;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 5px 30px 5px 30px;
+    width: 350px;
+    box-shadow: black -4px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContainerList button img {
+    width: 15vh;
+}
+
+.ContainerTools {
+    width: 80vh;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.UI {
+    display: flex;
+    margin-bottom: 35%;
+    justify-content: center;
+}
+
+.Arrow {
+    display: flex;
+    justify-content: center;
+    margin: 30%;
+}
+
+.ContainerTools img {
+    height: 20vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ContainerMateri {
+    background: #E89701;
+    width: 180vh;
+    border: 5px solid black;
+    margin-top:15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    height: 70vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: black -4px 4px;
+    margin-bottom:25px ;
+    overflow-y: scroll;
+}
+
+.ContainerMateri h1 {
+    margin-top: 25px;
+    background: #AE2012;
+    padding: 1px 25px 1px 25px;
+    font-weight: 800;
+    font-size: 30px;
+    border: 5px solid black;
+    box-shadow: black -4px 4px;
+}
+
+.ContainerMateri button {
+    background: #94D2BD;
+    color: black;
+    border: 5px solid black;
+    font-size: 18px;
+    box-shadow: black -4px 4px;
+    margin-top: 10px;
+    padding: 2px 30px 2px 30px;
+    font-weight: 800;
+    width: 350px;
+
+}
+
+.ContainerMateri p {
+    font-size: 18px;
+}
+
+.arrowLeft {
+    height: 100vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arrowLeft img {
+    width: 25vh;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.ContainerList h1 {
+    background: #AE2012;
+    padding: 1px 25px 1px 25px;
+    font-weight: 800;
+    border: 5px solid black;
+    box-shadow: black -4px 4px;
+}
