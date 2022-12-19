@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DamarKurung/static/css/main.11d13132.css",
-    "main.js": "/DamarKurung/static/js/main.aa88f966.js",
+    "main.css": "/DamarKurung/static/css/main.90f5ad41.css",
+    "main.js": "/DamarKurung/static/js/main.a19bc93c.js",
     "static/js/787.14f3fbcd.chunk.js": "/DamarKurung/static/js/787.14f3fbcd.chunk.js",
     "static/media/song.mp3": "/DamarKurung/static/media/song.51f9073296adc25445c1.mp3",
     "static/media/GambarDampak.png": "/DamarKurung/static/media/GambarDampak.39194a1088773149f53c.png",
@@ -14,21 +14,27 @@
     "static/media/GambarFestival.jpg": "/DamarKurung/static/media/GambarFestival.d83ae4fcf4f67a2b99dd.jpg",
     "static/media/GambarUpaya.PNG": "/DamarKurung/static/media/GambarUpaya.01e83e3eb4f001e32708.PNG",
     "static/media/GambarPerkembanga.jpeg": "/DamarKurung/static/media/GambarPerkembanga.e77038b738c4335db6c6.jpeg",
+    "static/media/iconPengertian.png": "/DamarKurung/static/media/iconPengertian.9782106c0a6f383047c8.png",
     "static/media/GambarUpaya.jpeg": "/DamarKurung/static/media/GambarUpaya.effb77292f45324d3dac.jpeg",
     "static/media/Profil.jpeg": "/DamarKurung/static/media/Profil.e4292a18fb11c8e1beb7.jpeg",
+    "static/media/iconModel.png": "/DamarKurung/static/media/iconModel.2353710e0d95bd5d349d.png",
+    "static/media/IconEtimologi.png": "/DamarKurung/static/media/IconEtimologi.9cbfbb554d99a0000d3a.png",
     "static/media/foto2.jpg": "/DamarKurung/static/media/foto2.ed6157d2983a79a2d5fb.jpg",
+    "static/media/iconSejarah.png": "/DamarKurung/static/media/iconSejarah.1bfa78830fba3f120f6c.png",
     "static/media/Judul.png": "/DamarKurung/static/media/Judul.86e7acf7488b050d9cb1.png",
+    "static/media/iconBentuk.png": "/DamarKurung/static/media/iconBentuk.047008561b5291a1cca6.png",
+    "static/media/iconEvent.png": "/DamarKurung/static/media/iconEvent.103ef0d5890a9cef27e3.png",
     "static/media/iconMateri.png": "/DamarKurung/static/media/iconMateri.ec59d096d0740a36ee8f.png",
     "static/media/iconQuiz.png": "/DamarKurung/static/media/iconQuiz.46bae20e500687a4c356.png",
     "static/media/iconVideo.png": "/DamarKurung/static/media/iconVideo.50bdfd569e28e7c77805.png",
     "static/media/Play.png": "/DamarKurung/static/media/Play.caca5657f34f5309ff72.png",
     "index.html": "/DamarKurung/index.html",
-    "main.11d13132.css.map": "/DamarKurung/static/css/main.11d13132.css.map",
-    "main.aa88f966.js.map": "/DamarKurung/static/js/main.aa88f966.js.map",
+    "main.90f5ad41.css.map": "/DamarKurung/static/css/main.90f5ad41.css.map",
+    "main.a19bc93c.js.map": "/DamarKurung/static/js/main.a19bc93c.js.map",
     "787.14f3fbcd.chunk.js.map": "/DamarKurung/static/js/787.14f3fbcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11d13132.css",
-    "static/js/main.aa88f966.js"
+    "static/css/main.90f5ad41.css",
+    "static/js/main.a19bc93c.js"
   ]
 }
