@@ -15,16 +15,21 @@ const Video =({mute})=> {
         <div className="MenuContainer">
             <div className="arrowLeft">
                  <img src={Rumah} onClick={()=> setOpenHome(true)} />
-                <Link to="/Materi">
+                <Link to="/Video">
                     <img src={arrowL} />
                 </Link>
                 
             </div>
+            <div className="ContainerMateri2">
+                
+            <div className="TittleVideo">
+                 <h1>Animasi</h1>
+            </div>
             <div className="ContainerMateri" >
-                <h1>Animasi</h1>
-                <iframe allowFullScreen width="400" height="320" src="https://www.youtube.com/embed/q6HeTobHWCU" tittle='Animasi'>
+                <iframe allowFullScreen width="390" height="340" src="https://www.youtube.com/embed/q6HeTobHWCU" tittle='Animasi'>
 
                 </iframe>
+            </div>
             </div>
             <div className="arrowLeft">
                  <img src={Musik} onClick={mute} />

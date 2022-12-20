@@ -21,11 +21,15 @@ const Video =({mute})=> {
                 </Link>
                 
             </div>
+            <div className="ContainerMateri2">
+            <div className="TittleVideo">
+                     <h1>Video</h1>
+                </div>
             <div className="ContainerMateri" >
-                <h1>Video</h1>
-                <iframe allowFullScreen width="400" height="320" src="https://www.youtube.com/embed/hY5uoPCArx8" tittle='Video'>
+                <iframe allowFullScreen width="390" height="340" src="https://www.youtube.com/embed/hY5uoPCArx8" tittle='Video'>
 
                 </iframe>
+            </div>
             </div>
             <div className="arrowLeft">
                  <img src={Musik} onClick={mute} />

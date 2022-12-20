@@ -21,14 +21,19 @@ const Links =({mute})=> {
                 </Link>
                 
             </div>
+            <div className="ContainerMateri2">
+            <div className="TittleVideo">
+                 <h1>Artikel</h1>
+            </div>
             <div className="ContainerMateri" >
-            <h1>Artikel</h1>
                 <p>Agar lebih jelas dalam memahami dan mengeneal Damar Kurung, yuk kita lihat baca artikel dari wikipedia berikuts</p>
                 <a href="https://quizizz.com/join/quiz/63934de46c6521001dd2339e/start?studentShare=true" target="_blank">
 
                 <button>Buka Artikel</button>
                 </a>
             </div>
+            </div>
+                
             <div className="arrowLeft">
                  <img src={Musik} onClick={mute} />
                 <Link to="/Quiz">

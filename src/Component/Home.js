@@ -24,13 +24,12 @@ const Home =()=> {
             <img src={Judul} />
         </div>
         <div className="ButtonContainer">
-            <Link to="/Menu">
+            <Link to="/Tujuan">
              <img src={Play} />
             </Link>
             <div className="secondButton">
                 <img onClick={()=>setOpenInfo(true)} src={info} />
                 <img onClick={()=>setOpenAbout(true)} src={about} />
-
             </div>
         </div>
         <Info open={openInfo} onClose={()=> setOpenInfo(false)} />

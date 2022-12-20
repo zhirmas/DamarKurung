@@ -10,6 +10,7 @@ import Animasi from './Component/Animasi';
 import Quiz from './Component/Quiz';
 import song from "./Asset/song.mp3";
 import Links from "./Component/Link";
+import Tujuan from './Component/Tujuan';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Animasi" element={<Animasi  mute={mute} />} />
         <Route path="/Link" element={<Links  mute={mute} />} />
         <Route path="/Quiz" element={<Quiz  mute={mute} />} />
+        <Route path="/Tujuan" element={<Tujuan  mute={mute} />} />
       </Routes>
     </HashRouter>
   );

@@ -14,6 +14,12 @@ import Ui from "./UI";
 import HomeModal from "./homeModal";
 import Home from "./Home";
 import Model from "./Model";
+import iconPengertian from "../Asset/iconPengertian.png";
+import iconEtimologi from "../Asset/IconEtimologi.png";
+import iconEvent from "../Asset/iconEvent.png";
+import iconModel from "../Asset/iconModel.png";
+import iconSejarah from "../Asset/iconSejarah.png";
+import iconBentuk from "../Asset/iconBentuk.png";
 
 const Materi =({mute})=> {
 
@@ -30,20 +36,24 @@ const Materi =({mute})=> {
         <div className="MenuContainer">
             <div className="arrowLeft">
                  <img src={Rumah} onClick={()=> setOpenHome(true)} />
-                <Link to="/">
+                <Link to="/Menu">
                     <img src={arrowL} />
                 </Link>
                 
             </div>
+            <div className="ContainerMateri2">
+            <div className="TittleVideo">
+                 <h1>Materi Damar Kurung</h1>
+            </div>
             <div className="ContainerMateri" >
-                <h1>Materi Damar Kurung</h1>
-                    <button onClick={()=> setOpenPengertian(true)}>Pengertian</button>
-                    <button onClick={()=> setOpenPenyebab(true)}>Etimologi</button>
-                    <button onClick={()=> setOpenDampak(true)}>Sejarah</button>
-                    <button onClick={()=> setOpenUpaya(true)}>Bentuk</button>
-                    <button onClick={()=> setOpenModel(true)}>Model Gambar</button>
-                    <button onClick={()=> setOpenFestival(true)}>Perkembangan dan Festival Damar Kurung</button>
+                    <button onClick={()=> setOpenPengertian(true)}>Pengertian<img src={iconPengertian} /></button>
+                    <button onClick={()=> setOpenPenyebab(true)}>Etimologi<img src={iconEtimologi} /></button>
+                    <button onClick={()=> setOpenDampak(true)}>Sejarah<img src={iconSejarah} /></button>
+                    <button onClick={()=> setOpenUpaya(true)}>Bentuk<img src={iconBentuk} /></button>
+                    <button onClick={()=> setOpenModel(true)}>Model Gambar<img src={iconModel} /></button>
+                    <button onClick={()=> setOpenFestival(true)}>Perkembangan dan Festival Damar Kurung<img  src={iconEvent}/></button>
            
+            </div>
             </div>
             <div className="arrowLeft">
                  <img src={Musik} onClick={mute} />
